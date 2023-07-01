@@ -32,3 +32,7 @@ This will generate a CSV file named `news-YYYY-MM-DD-HH-MM.csv` (where `YYYY-MM-
 ## License
 
 This project is licensed under the terms of the MIT license.
+
+Created by Chris Lever SEO (Technical SEO Consultant): https://chrisleverseo.com
+
+This script could be useful for content marketing teams. You can schedule the script to run daily to extract the news headlines and monitor trends.
