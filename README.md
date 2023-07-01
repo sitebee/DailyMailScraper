@@ -3,30 +3,29 @@
 A simple web scraper built with Node.js and Puppeteer. The script extracts the titles and URLs of articles from the index page of dailymail.co.uk and saves the data to a CSV file. 
 
 ## Installation
+Install Node.js - https://nodejs.org/en
 
-1. Clone this repository to your local machine:
-
-git clone [https://github.com/sitebee/DailyMailScraper.git]
-
-
-2. Navigate to the project directory:
-
-cd dailymail-scraper
+**Libraries required**
+npm install puppeteer csv-writer
 
 
-3. Install the dependencies:
+## How to Use Guide for Windows PowerShell:​
 
-npm install
+    Open PowerShell: Use the search bar to find PowerShell. Right-click on the PowerShell icon and select 'Run as administrator'.
+    Install the Dependencies: Run the command npm install puppeteer csv-writer. This will install the Puppeteer and csv-writer packages that are dependencies for the script.
+    Navigate to the Folder: Use the cd command to navigate to the directory containing your script.
+    Example: cd C:\Users\YourUserName\DailyMailScraper
+    Run the Script: Now, you can execute the script using Node.js by typing node index.js and then pressing Enter.
 
+## How to Use Guide for macOS:​
 
+    Open Terminal: You can open Terminal by pressing Cmd + Space, typing 'Terminal', and then hitting Enter.
+    Navigate to the Folder: Use the cd command to navigate to the directory containing your script.
+    Example: cd /Users/YourUserName/DailyMailScraper
+    Install the Dependencies: Run the command npm install puppeteer csv-writer to install the Puppeteer and csv-writer packages.
+    Run the Script: Finally, to execute the script, type node index.js and then hit Enter.
 
-## Usage
-
-To run the script, use the following command:
-
-npm start
-
-
+## Output
 This will generate a CSV file named `news-YYYY-MM-DD-HH-MM.csv` (where `YYYY-MM-DD` is the current date and `HH-MM` is the current time) in the project directory. The CSV file contains the titles, URLs, and the date of extraction for the articles.
 
 ## License
