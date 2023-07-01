@@ -1,0 +1,16 @@
+{
+  "name": "dailymail-scraper",
+  "version": "1.0.0",
+  "description": "A simple web scraper to extract article titles and URLs from the index page of dailymail.co.uk.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": ["web-scraping", "puppeteer", "node.js", "dailymail"],
+  "author": "Chris Lever SEO",
+  "license": "MIT",
+  "dependencies": {
+    "puppeteer": "^10.4.0",
+    "json2csv": "^5.0.6"
+  }
+}
